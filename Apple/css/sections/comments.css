@@ -1,0 +1,39 @@
+#comments .swiper {
+  overflow: hidden;
+}
+
+#comments .swiper-slide {
+  text-align: center;
+}
+
+#comments .swiper-slide img {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid var(--border-color-2);
+  margin: 0 auto;
+}
+
+#comments .swiper-slide h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 16px 0 8px 0;
+}
+
+#comments .swiper-slide p {
+  font-weight: 400;
+  font-size: 18px;
+}
+#comments .swiper-pagination {
+  margin-top: 24px;
+  position: relative;
+}
+#comments .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: 0.25;
+  background-color: white;
+}
+#comments .swiper-pagination-active {
+  opacity: 1;
+}
